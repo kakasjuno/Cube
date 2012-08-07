@@ -1,0 +1,18 @@
+{
+	identifier:"com.csair.istation",
+	url: "http://localhost/applications/istation"
+	name:"站长移动",
+	version:"1.1",
+	release-note:"1.1: Speed Boost. 1.0: First Release",
+	icons:[
+		"72": "istation_72.png",
+		"256": "istation_256.png"
+	],
+	modules:[
+		{identifier:"com.csair.icabin.passenger", name:"Passenger", version:"1.1"},
+		{identifier:"com.csair.istation.help", name:"CheckIn", version:"1.2"}
+	],
+	extra-modules:[
+		{identifier:"com.csair.icabin.weather", name:"Weather", version:"1.1"}
+	]
+}

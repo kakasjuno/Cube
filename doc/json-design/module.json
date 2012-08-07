@@ -1,0 +1,22 @@
+/*
+
+/applications/{app-name}/modules/321
+
+*/
+
+{
+	id:"3321",
+	identifier:"com.csair.icabin.weather",
+	name:"Weather",
+	release-note:"1.1 Release Note: xxxxxx",
+	icon: "icabin_128_128.png",  //icon or icons
+	icons:[
+		"128": "icabin_128.png",
+		"256": "icabin_256.png"
+	],
+	version:"1.1",
+	available-versions:[
+		"1.1",
+		"1.0"
+	]
+}

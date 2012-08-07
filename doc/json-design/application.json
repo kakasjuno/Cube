@@ -1,0 +1,31 @@
+/*
+
+/applications/icabin
+
+*/
+
+{
+	id:"33",
+	identifier:"com.csair.icabin",
+	name:"iCabin",
+	release-note:"2.0.1 Release Note: xxxxxx",
+	icons:[
+		"128": "icabin_128.png",
+		"256": "icabin_256.png"
+	],
+	version:"2.0.1",
+	url:"http://www.abc.com/as/static/a-2.0.1.zip",
+	available-versions:[
+		"2.0.1",
+		"2.0.0",
+		"1.6.GA",
+		"1.0"
+	],
+	widgets:[
+		{identifier:"com.csair.icabin.passenger", name:"Passenger", version:"1.1"},
+		{identifier:"com.csair.icabin.checkin", name:"CheckIn", version:"1.2"}
+	],
+	extra-modules:[
+		{identifier:"com.csair.icabin.weather", name:"Weather", version:"1.1"}
+	]
+}
