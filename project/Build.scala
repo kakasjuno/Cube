@@ -9,7 +9,7 @@ object ApplicationBuild extends Build {
 
     val appDependencies = Seq(
       // Add your project dependencies here,
-      "postgresql" % "postgresql" % "8.4-702.jdbc4",
+      "postgresql" % "postgresql" % "9.1-901-1.jdbc4",
 	"org.hibernate" % "hibernate-entitymanager" % "3.6.9.Final"
     )
 
