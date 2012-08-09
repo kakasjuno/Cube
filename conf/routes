@@ -9,12 +9,13 @@ GET     /                           controllers.Installer.index()
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 # Applications
-GET		/applications				controllers.ApplicationController.index()
-GET		/applications/:id			controllers.ApplicationController.show(id: Long)
+GET		/apps						controllers.ApplicationController.index()
+GET		/apps/:id					controllers.ApplicationController.show(id: String, scope = "all")
+#GET	/apps/:id;basic				controllers.ApplicationController.show(id: String, scope = "basic")
+#GET	/apps/:id;update			controllers.ApplicationController.show(id: String, scope = "update")
 
-# Modules
-GET		/modules/:id				controllers.WidgetController.download(id: Long)
-GET		/modules/:id/information	controllers.WidgetController.show(id: Long)
+# Widgets
+GET		/widgets/:id				controllers.WidgetController.show(id: String)
 
 # Test
 GET		/install					controllers.Installer.install()
