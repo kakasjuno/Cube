@@ -65,6 +65,8 @@ public class Global extends GlobalSettings {
 		a.widgets.add(w2);
 		a.widgets.add(w3);
 		a.save();
+		
+		
 	}
 
 	@Override
